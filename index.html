@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator JS</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <html>
+<head><title>Calculator JS</title></head>
+<body bgcolor="#B0754B">
+<center><br/><h1 style="margin-top:0px;"><b><font style="font-size:70;" color="white">Calculator JS</font></b></h1>
+<hr size="20" color="black"/>
+<div class="main" style="width:265px; background: #FFF8DC;">
+<form name="Calculator">
+<input type="text" name="display" placeholder="0" style="width:254px; text-align:right; margin:3px; background-color: yellow; margin-bottom: -9px;"/>
+<div class="hover">
+<br/>
+<input type="button" value="7" onclick="document.Calculator.display.value+='7'" style="margin: 3px;"/>
+<input type="button" value="8" onclick="document.Calculator.display.value+='8'"/>
+<input type="button" value="9" onclick="document.Calculator.display.value+='9'"/>
+<input type="button" value="+" onclick="btnplus()" style="background-color: green" />
+<br/>
+<input type="button" value="4" onclick="document.Calculator.display.value+='4'" style="margin: 3px;"/>
+<input type="button" value="5" onclick="document.Calculator.display.value+='5'"/>
+<input type="button" value="6" onclick="document.Calculator.display.value+='6'"/>
+<input type="button" value="-" onclick="btnsub()" style="background-color: green"/>
+<br/>
+<input type="button" value="1" onclick="document.Calculator.display.value+='1'" style="margin: 3px;"/>
+<input type="button" value="2" onclick="document.Calculator.display.value+='2'"/>
+<input type="button" value="3" onclick="document.Calculator.display.value+='3'"/>
+<input type="button" value="*" onclick="btnmult()" style="background-color: green"/>
+<br/>
+<input type="button" value="0" onclick="document.Calculator.display.value+='0'" style="margin: 3px;"/>
+<input type="button" value="00" onclick="document.Calculator.display.value+='00'"/>
+<input type="button" value="." onclick="btndot()"/>
+<input type="button" value="/" onclick="btndiv()" style="background-color: green"/>
+<br/>
+<input type="button" value="(" onclick="document.Calculator.display.value+='('" style="margin: 3px;background-color: #410AF7" />
+<input type="button" value=")" onclick="document.Calculator.display.value+=')'" style="background-color: #410AF7" />
+<input type="button" value="C" onclick="btnclear()" style="background-color: black;color: white;" />
+<input type="button" value="=" onclick="document.Calculator.display.value = eval(document.Calculator.display.value)" style="margin: 3px;background-color: red;" />
+</div>
+</form>
+</div>
+<hr size="20" color="black"/>
+</center>
+<h1><div style="margin-right: 100px;" align="center">Idlir Islamaj</div></h1>
+</body>
+</html>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

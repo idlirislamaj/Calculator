@@ -1,0 +1,19 @@
+form input {
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 0.5pc;
+  background-color: #66f;
+  border: 3px solid #a52a2a;
+}
+.hover input:hover {
+  background-color: #000;
+  color: #fff;
+}
+.main {
+  border: 3px solid #000;
+  border-radius: 8px;
+}
+.hover input {
+  margin-top: -3px;
+}

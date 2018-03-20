@@ -7,7 +7,7 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
+            "name": "Launch on Chrome",
             "url": "C://Users//IdlirIslamaj//Desktop//Git Projects//Calculator//index.html",
             "webRoot": "${workspaceFolder}"
         }

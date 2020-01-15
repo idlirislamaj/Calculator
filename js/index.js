@@ -6,3 +6,4 @@ function btnplus(){document.Calculator.display.value+="+";
     function btndot(){document.Calculator.display.value+=".";document.Calculator.display.style.textAlign="right";}
     function btndiv(){document.Calculator.display.value+="/";document.Calculator.display.style.textAlign="right";}
     function btnclear(){document.Calculator.display.value="";document.Calculator.display.style.textAlign="right";}
+

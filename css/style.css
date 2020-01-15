@@ -2,18 +2,24 @@ form input {
   width: 63px;
   height: 60px;
   font-size: 25px;
-  background-color: #5E5F61;
-  border: 1px solid #000;
+  background-color: #5f5f61;
+  border: 1px solid #3f4041;
   color: #fff;
   font-family : 'Ubuntu', sans-serif;
+  margin: -2px;
 }
 
 
 .main {
-  border: 1px solid #000;
   border-radius: 8px;
-  background-color: #2B2C2E;
-  width: 265px;
   margin: auto;
 }
 
+input[type="button"], input[type="password"], textarea, select { 
+  outline: none;
+}
+
+input:active{
+  background-color: rgb(190, 189, 189);
+
+}

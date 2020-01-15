@@ -21,13 +21,13 @@
 <hr size="20" color="black"/>
 <div class="main" style="width:265px;">
 <form name="Calculator">
-<input type="text" name="display" placeholder="0" style="width:-webkit-fill-available; text-align:right; margin:3px; font-size: 40px; background-color: #2B2C2E; color:#fff;"/>
+<input type="text" name="display" placeholder="0" style="width:-webkit-fill-available; text-align:right; border: 0; height:80px;    width: 250px;
+font-size: 40px; background-color: #2b2c2e; color:#fff;border-top-left-radius: 5px;border-top-right-radius: 5px;"/>
 <div class="hover">
-
-<input type="button" value="AC" onclick="btnclear()" style="background-color: black;color: white;" />
-<input type="button" value="(" onclick="document.Calculator.display.value+='('"/>
-<input type="button" value=")" onclick="document.Calculator.display.value+=')'"/>
-<input type="button" value="/" onclick="btndiv()" style="background-color: #FF9E2F"/>
+<input type="button" value="AC" onclick="btnclear()" style="background-color: #3f4041;color: white;" />
+<input type="button" value="(" onclick="document.Calculator.display.value+='('"style="background-color: #3f4041"/>
+<input type="button" value=")" style="background-color: #3f4041" onclick="document.Calculator.display.value+=')'"/>
+<input type="button" value="÷" onclick="btndiv()" style="background-color: #FF9E2F"/>
 <input type="button" value="7" onclick="document.Calculator.display.value+='7'"/>
 <input type="button" value="8" onclick="document.Calculator.display.value+='8'"/>
 <input type="button" value="9" onclick="document.Calculator.display.value+='9'"/>
@@ -42,9 +42,9 @@
 <!-- <input type="button" value="00" onclick="document.Calculator.display.value+='00'"/> -->
 <input type="button" value="+" onclick="btnplus()" style="background-color: #FF9E2F" />
 <!-- <input type="button" value="0" onclick="document.Calculator.display.value+='0'"/> -->
-<input type="button" style="width:130px" value="0" onclick="document.Calculator.display.value+='0'"/>
+<input type="button" style="width:126px; border-bottom-left-radius: 5px;" value="0" onclick="document.Calculator.display.value+='0'"/>
 <input type="button" value="," onclick="btndot()"/>
-<input type="button" value="=" onclick="document.Calculator.display.value = eval(document.Calculator.display.value)" style="background-color: #FF9E2F;" />
+<input type="button" value="=" onclick="document.Calculator.display.value = eval(document.Calculator.display.value)" style="background-color: #FF9E2F;     border-bottom-right-radius: 5px;" />
 </div>
 </form>
 </div>
